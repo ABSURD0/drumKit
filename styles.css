@@ -1,0 +1,130 @@
+body {
+  text-align: center;
+  background-color: #283149;
+ 
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family:monospace;
+  letter-spacing: 1rem;
+  text-shadow: 5px 0 #4657ee;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #4657ee;
+  font-size: 5rem;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 2;
+  font-weight: 900;
+  color: #70a1f0;
+  text-shadow: 3px 0 rgb(6, 51, 97);
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  text-transform: capitalize;
+ 
+}
+
+.w {
+background: url(tom1.png), white;
+background-repeat: no-repeat;
+background-size: 80%;
+background-position: center;
+}
+
+.a {
+  background: url(tom2.png), white;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+}
+
+.s {
+  background: url(tom3.png), white;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+}
+
+.d {
+  background: url(tom4.png), white;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+}
+
+.j {
+  background: url(kick.png), white;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+}
+
+.k {
+  background: url(snare.png), white;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+}
+
+.l {
+  background: url(crash.png), white;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center;
+}
+
+.line{
+  width: 90%;
+  height: 0.2rem;
+  background-color: grey;
+  margin-bottom: 3rem;
+}
+
+.set {
+  width: 80%;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+
+
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+
