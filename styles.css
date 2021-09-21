@@ -10,6 +10,7 @@ a {
 }
 
 .container{
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -102,11 +103,12 @@ background-position: center;
   width: 90%;
   height: 0.2rem;
   background-color: grey;
-  margin-bottom: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .set {
-  width: 80%;
+  width: 100%;
   margin-top: 4rem;
   margin-bottom: 2rem;
 
